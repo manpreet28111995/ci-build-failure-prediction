@@ -1,0 +1,24 @@
+\begin{table*}[htbp]
+\centering
+\footnotesize\setlength{\tabcolsep}{2.4pt}
+\caption{Project Withhold Outcomes}
+\label{tab:cost_project}
+\begin{tabular}{lrrrrrrrrrrr}
+\toprule
+Project & Build & Prec. & \multicolumn{3}{c}{LAST5} & \multicolumn{3}{c}{RF} & \multicolumn{3}{c}{AE} \\
+\cmidrule(lr){4-6} \cmidrule(lr){7-9} \cmidrule(lr){10-12}
+ & (min) & LAST5 & Net 2 min & Net 1 build & Break even & Net 2 min & Net 1 build & Break even & Net 2 min & Net 1 build & Break even \\
+\midrule
+jruby & 176 & 0.85 & 1{,}067{,}647 & 1{,}055{,}877 & $>$9{,}999 & 1{,}010{,}820 & 997{,}126 & $>$9{,}999 & 1{,}303{,}699 & 1{,}281{,}832 & $>$9{,}999 \\
+jackrabbit-oak & 40 & 0.82 & 12{,}248 & 10{,}151 & 87 & 2{,}472 & 832 & 51 & 19{,}228 & 16{,}236 & 43 \\
+gradle & 17 & 0.19 & -358 & -3{,}042 & 0 & -490 & -3{,}350 & 0 & -456 & -3{,}306 & 0 \\
+openproject & 122 & 0.45 & 81{,}798 & 67{,}933 & 578 & 69{,}514 & 52{,}365 & 379 & 67{,}322 & 50{,}563 & 417 \\
+rails & 273 & 0.45 & 282{,}270 & 257{,}276 & 3{,}485 & 484{,}987 & 457{,}984 & 4{,}154 & 467{,}056 & 438{,}710 & 4{,}526 \\
+ruby & 26 & 0.69 & 4{,}450 & 3{,}441 & 100 & 4{,}649 & 3{,}088 & 57 & 4{,}930 & 3{,}043 & 52 \\
+graylog2-server & 18 & 0.16 & -215 & -2{,}200 & 0 & -295 & -2{,}327 & 0 & -261 & -2{,}440 & 0 \\
+cloud\_controller\_ng & 96 & 0.31 & 7{,}321 & -373 & 53 & 9{,}789 & -1{,}952 & 59 & 8{,}772 & -2{,}995 & 42 \\
+presto & 34 & 0.67 & 854 & -578 & 5 & 716 & -674 & 23 & 812 & -788 & 5 \\
+linguist & 8 & 0.33 & 196 & -267 & 2 & 208 & -266 & 5 & 250 & -319 & 2 \\
+\bottomrule
+\end{tabular}
+\end{table*}

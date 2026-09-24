@@ -1,0 +1,22 @@
+\begin{table*}[htbp]
+\centering
+\footnotesize\setlength{\tabcolsep}{3.5pt}
+\caption{Threshold Operating Points}
+\label{tab:operating}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+ & \multicolumn{4}{c}{Native threshold} & \multicolumn{2}{c}{Matched budget (10\%)} & \multicolumn{3}{c}{Rolling threshold} \\
+\cmidrule(lr){2-5} \cmidrule(lr){6-7} \cmidrule(lr){8-10}
+Scorer & Alarm rate & Precision & Recall & Degenerate & Precision & Recall & Alarm rate & Precision & Recall \\
+\midrule
+Previous outcome & 0.350 & 0.472 & 0.467 & 0 & 0.506 & 0.171 &  & &  \\
+Last five rate & 0.470 & 0.418 & 0.558 & 1 & 0.492 & 0.157 &  & &  \\
+History LR & 0.396 & 0.446 & 0.501 & 1 & 0.504 & 0.171 &  & &  \\
+Autoencoder & 0.211 & 0.371 & 0.230 & 0 & 0.392 & 0.119 & 0.144 & 0.384 & 0.165 \\
+Isolation forest & 0.163 & 0.411 & 0.196 & 0 & 0.401 & 0.127 & 0.124 & 0.404 & 0.158 \\
+PCA reconstruction & 0.128 & 0.363 & 0.131 & 0 & 0.371 & 0.105 & 0.108 & 0.352 & 0.113 \\
+Random forest & 0.422 & 0.386 & 0.454 & 4 & 0.451 & 0.146 &  & &  \\
+Gradient boosting & 0.441 & 0.381 & 0.474 & 2 & 0.428 & 0.135 &  & &  \\
+\bottomrule
+\end{tabular}
+\end{table*}

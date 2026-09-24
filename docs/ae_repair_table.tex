@@ -1,0 +1,22 @@
+\begin{table*}[htbp]
+\centering
+\footnotesize\setlength{\tabcolsep}{2.4pt}
+\caption{Autoencoder Weighting Repair}
+\label{tab:ae_repair}
+\begin{tabular}{lrlrlrrr}
+\toprule
+Project & Zero var. & Legacy top feature & Share & Repaired top feature & Share & AUROC legacy & AUROC repaired \\
+\midrule
+jruby & 2 & gh\_tests\_deleted & 58\% & gh\_num\_commits\_on\_files\_touched & 9\% & 0.565 & 0.497 \\
+jackrabbit-oak & 3 & gh\_description\_complexity & 44\% & gh\_tests\_added & 17\% & 0.515 & 0.432 \\
+gradle & 0 & gh\_tests\_added & 13\% & gh\_test\_cases\_per\_kloc & 11\% & 0.561 & 0.569 \\
+openproject & 2 & gh\_tests\_deleted & 62\% & gh\_team\_size & 14\% & 0.484 & 0.487 \\
+rails & 2 & gh\_tests\_deleted & 50\% & git\_num\_all\_built\_commits & 16\% & 0.525 & 0.556 \\
+ruby & 4 & gh\_description\_complexity & 49\% & gh\_files\_deleted & 17\% & 0.392 & 0.269 \\
+graylog2-server & 2 & gh\_description\_complexity & 72\% & gh\_other\_files & 12\% & 0.184 & 0.372 \\
+cloud\_controller\_ng & 2 & gh\_tests\_deleted & 53\% & gh\_sloc & 25\% & 0.563 & 0.548 \\
+presto & 0 & gh\_team\_size & 31\% & gh\_team\_size & 31\% & 0.517 & 0.518 \\
+linguist & 3 & hist\_n\_finished\_w10 & 62\% & gh\_files\_modified & 25\% & 0.498 & 0.424 \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\scriptsize\setlength{\tabcolsep}{1.5pt}
+\caption{Withhold Cost Sensitivity}
+\label{tab:cost_sweep}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Scorer & 2 min & 5 min & 15 min & 30 min & 1 build & \shortstack{Positive\\at 2 min} & \shortstack{Positive\\at 1 build} \\
+\midrule
+Previous outcome & 3.25 & 3.17 & 2.93 & 2.57 & 1.20 & 8/10 & 6/10 \\
+Last five rate & 3.25 & 3.18 & 2.93 & 2.44 & 0.96 & 8/10 & 5/10 \\
+History LR & 3.09 & 3.02 & 2.79 & 2.34 & 0.86 & 8/10 & 6/10 \\
+Autoencoder & 4.47 & 4.30 & 3.66 & 2.68 & 0.81 & 8/10 & 5/10 \\
+Isolation forest & 4.92 & 4.81 & 4.47 & 3.56 & 1.12 & 8/10 & 6/10 \\
+PCA reconstruction & 3.50 & 3.34 & 2.64 & 1.60 & 0.18 & 8/10 & 5/10 \\
+Random forest & 1.82 & 1.74 & 1.47 & 1.06 & 0.02 & 8/10 & 5/10 \\
+Gradient boosting & 2.07 & 1.97 & 1.65 & 1.17 & 0.33 & 8/10 & 5/10 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,15 @@
+[github/linguist] skip scenario done
+[facebook/presto] skip scenario done
+[Graylog2/graylog2-server] skip scenario done
+[cloudfoundry/cloud_controller_ng] skip scenario done
+[gradle/gradle] skip scenario done
+[jruby/jruby] skip scenario done
+[mitchellh/vagrant] skip scenario done
+[openSUSE/open-build-service] skip scenario done
+[apache/jackrabbit-oak] skip scenario done
+[orbeon/orbeon-forms] skip scenario done
+[rubinius/rubinius] skip scenario done
+[opf/openproject] skip scenario done
+[rails/rails] skip scenario done
+[ruby/ruby] skip scenario done
+Wrote results/skip_scenario.json

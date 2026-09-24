@@ -1,0 +1,34 @@
+Running 14 projects with n_boot=2000, n_jobs=7
+[facebook/presto] 2067 builds, prevalence 0.503
+[Graylog2/graylog2-server] 2539 builds, prevalence 0.127
+[gradle/gradle] 3660 builds, prevalence 0.086
+[github/linguist] 2013 builds, prevalence 0.250
+[cloudfoundry/cloud_controller_ng] 2463 builds, prevalence 0.251
+[apache/jackrabbit-oak] 5457 builds, prevalence 0.510
+[jruby/jruby] 6494 builds, prevalence 0.629
+[github/linguist] done in 913.3 s
+[mitchellh/vagrant] 2593 builds, prevalence 0.092
+[facebook/presto] done in 928.1 s
+[openSUSE/open-build-service] 2667 builds, prevalence 0.336
+[Graylog2/graylog2-server] done in 1099.8 s
+[opf/openproject] 3554 builds, prevalence 0.335
+[cloudfoundry/cloud_controller_ng] done in 1125.1 s
+[orbeon/orbeon-forms] 2074 builds, prevalence 0.579
+[gradle/gradle] done in 1320.0 s
+[rails/rails] 2787 builds, prevalence 0.287
+scripts/run_experiment.py:252: RuntimeWarning: Mean of empty slice.
+  "ae_attribution_pass": attr[y_te == 0].mean(axis=0),
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/_methods.py:137: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+[apache/jackrabbit-oak] done in 1492.7 s
+[rubinius/rubinius] 2181 builds, prevalence 0.370
+[jruby/jruby] done in 1508.4 s
+[ruby/ruby] 2681 builds, prevalence 0.319
+[mitchellh/vagrant] done in 706.8 s
+[openSUSE/open-build-service] done in 732.8 s
+[orbeon/orbeon-forms] done in 565.9 s
+[opf/openproject] done in 813.7 s
+[rubinius/rubinius] done in 459.0 s
+[rails/rails] done in 664.1 s
+[ruby/ruby] done in 709.9 s
+All projects finished.

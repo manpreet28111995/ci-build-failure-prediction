@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\scriptsize\setlength{\tabcolsep}{1.5pt}
+\caption{Pooled Performance Summary}
+\label{tab:pooled}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Scorer & \shortstack{AUROC\\95\% CI} & Median & \shortstack{$>$0.5\\n / p} & \shortstack{$>$0.65\\n} & \shortstack{Lift\\95\% CI} & Norm. AP & Wilcox. \\
+\midrule
+Previous outcome & \shortstack{0.627\\{[0.596, 0.659]}} & 0.620 & 10/10; 0.002 & 3/10 & \shortstack{1.46\\{[1.26, 1.73]}} & 0.195 & 0.020 \\
+Last five rate & \shortstack{0.623\\{[0.591, 0.657]}} & 0.614 & 10/10; 0.002 & 3/10 & \shortstack{1.41\\{[1.24, 1.60]}} & 0.187 & ref. \\
+History LR & \shortstack{0.630\\{[0.598, 0.663]}} & 0.624 & 10/10; 0.002 & 3/10 & \shortstack{1.48\\{[1.28, 1.73]}} & 0.209 & 0.064 \\
+Autoencoder & \shortstack{0.517\\{[0.497, 0.535]}} & 0.515 & 8/10; 0.109 & 0/10 & \shortstack{1.15\\{[1.08, 1.24]}} & 0.052 & 0.002 \\
+Isolation forest & \shortstack{0.548\\{[0.521, 0.575]}} & 0.538 & 8/10; 0.109 & 0/10 & \shortstack{1.25\\{[1.13, 1.40]}} & 0.073 & 0.004 \\
+PCA reconstruction & \shortstack{0.523\\{[0.508, 0.537]}} & 0.523 & 8/10; 0.109 & 0/10 & \shortstack{1.12\\{[1.08, 1.17]}} & 0.037 & 0.002 \\
+Random forest & \shortstack{0.598\\{[0.566, 0.631]}} & 0.590 & 10/10; 0.002 & 2/10 & \shortstack{1.37\\{[1.23, 1.54]}} & 0.173 & 0.105 \\
+Gradient boosting & \shortstack{0.577\\{[0.549, 0.607]}} & 0.576 & 10/10; 0.002 & 1/10 & \shortstack{1.31\\{[1.19, 1.46]}} & 0.135 & 0.020 \\
+\bottomrule
+\end{tabular}
+\end{table}

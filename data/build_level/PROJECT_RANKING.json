@@ -1,0 +1,186 @@
+{
+  "source_dump": "travistorrent_5_3_2016.csv.gz",
+  "projects_in_dump": 1300,
+  "top_30_by_distinct_builds": [
+    {
+      "rank": 1,
+      "project": "jruby/jruby",
+      "builds": 6494,
+      "role": "primary"
+    },
+    {
+      "rank": 2,
+      "project": "apache/jackrabbit-oak",
+      "builds": 5457,
+      "role": "primary"
+    },
+    {
+      "rank": 3,
+      "project": "apache/sling",
+      "builds": 3797,
+      "role": "excluded_degenerate"
+    },
+    {
+      "rank": 4,
+      "project": "gradle/gradle",
+      "builds": 3660,
+      "role": "primary"
+    },
+    {
+      "rank": 5,
+      "project": "opf/openproject",
+      "builds": 3554,
+      "role": "primary"
+    },
+    {
+      "rank": 6,
+      "project": "rails/rails",
+      "builds": 2787,
+      "role": "primary"
+    },
+    {
+      "rank": 7,
+      "project": "ruby/ruby",
+      "builds": 2681,
+      "role": "primary"
+    },
+    {
+      "rank": 8,
+      "project": "openSUSE/open-build-service",
+      "builds": 2667,
+      "role": "robustness"
+    },
+    {
+      "rank": 9,
+      "project": "mitchellh/vagrant",
+      "builds": 2593,
+      "role": "robustness"
+    },
+    {
+      "rank": 10,
+      "project": "Graylog2/graylog2-server",
+      "builds": 2539,
+      "role": "primary"
+    },
+    {
+      "rank": 11,
+      "project": "cloudfoundry/cloud_controller_ng",
+      "builds": 2463,
+      "role": "primary"
+    },
+    {
+      "rank": 12,
+      "project": "rubinius/rubinius",
+      "builds": 2181,
+      "role": "robustness"
+    },
+    {
+      "rank": 13,
+      "project": "orbeon/orbeon-forms",
+      "builds": 2074,
+      "role": "robustness"
+    },
+    {
+      "rank": 14,
+      "project": "facebook/presto",
+      "builds": 2067,
+      "role": "primary"
+    },
+    {
+      "rank": 15,
+      "project": "spree/spree",
+      "builds": 2056,
+      "role": "not_used"
+    },
+    {
+      "rank": 16,
+      "project": "github/linguist",
+      "builds": 2013,
+      "role": "primary"
+    },
+    {
+      "rank": 17,
+      "project": "rapid7/metasploit-framework",
+      "builds": 1893,
+      "role": "not_used"
+    },
+    {
+      "rank": 18,
+      "project": "opal/opal",
+      "builds": 1880,
+      "role": "not_used"
+    },
+    {
+      "rank": 19,
+      "project": "languagetool-org/languagetool",
+      "builds": 1821,
+      "role": "not_used"
+    },
+    {
+      "rank": 20,
+      "project": "openMF/mifosx",
+      "builds": 1752,
+      "role": "not_used"
+    },
+    {
+      "rank": 21,
+      "project": "ManageIQ/manageiq",
+      "builds": 1729,
+      "role": "not_used"
+    },
+    {
+      "rank": 22,
+      "project": "deeplearning4j/deeplearning4j",
+      "builds": 1667,
+      "role": "not_used"
+    },
+    {
+      "rank": 23,
+      "project": "caelum/vraptor4",
+      "builds": 1663,
+      "role": "not_used"
+    },
+    {
+      "rank": 24,
+      "project": "Unidata/thredds",
+      "builds": 1647,
+      "role": "not_used"
+    },
+    {
+      "rank": 25,
+      "project": "HubSpot/Singularity",
+      "builds": 1629,
+      "role": "not_used"
+    },
+    {
+      "rank": 26,
+      "project": "heroku/heroku",
+      "builds": 1621,
+      "role": "not_used"
+    },
+    {
+      "rank": 27,
+      "project": "structr/structr",
+      "builds": 1592,
+      "role": "not_used"
+    },
+    {
+      "rank": 28,
+      "project": "diaspora/diaspora",
+      "builds": 1569,
+      "role": "not_used"
+    },
+    {
+      "rank": 29,
+      "project": "killbill/killbill",
+      "builds": 1553,
+      "role": "not_used"
+    },
+    {
+      "rank": 30,
+      "project": "shoes/shoes4",
+      "builds": 1502,
+      "role": "not_used"
+    }
+  ]
+}

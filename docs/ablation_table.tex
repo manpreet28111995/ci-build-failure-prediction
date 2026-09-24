@@ -1,0 +1,19 @@
+\begin{table*}[htbp]
+\centering
+\small
+\caption{Feature Group Ablation}
+\label{tab:ablation}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Configuration & \#Feat. & PREV & LAST5 & HIST-LR & AE & IF & PCA & RF & GB \\
+\midrule
+History only & 5 & 0.627 & 0.623 & 0.630 & 0.548 & 0.614 & 0.544 & 0.619 & 0.619 \\
+Telemetry only & 14 &  &  &  & 0.504 & 0.498 & 0.509 & 0.537 & 0.534 \\
+Churn only & 19 &  &  &  & 0.505 & 0.502 & 0.511 & 0.520 & 0.520 \\
+Repository only & 6 &  &  &  & 0.521 & 0.501 & 0.490 & 0.494 & 0.525 \\
+All minus repository & 38 &  &  &  & 0.516 & 0.545 & 0.525 & 0.620 & 0.611 \\
+All minus history & 39 &  &  &  & 0.499 & 0.504 & 0.508 & 0.531 & 0.525 \\
+All four groups & 44 & 0.627 & 0.623 & 0.630 & 0.517 & 0.548 & 0.523 & 0.598 & 0.577 \\
+\bottomrule
+\end{tabular}
+\end{table*}

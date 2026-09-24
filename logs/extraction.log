@@ -1,0 +1,19 @@
+Extracting 14 projects from travistorrent_5_3_2016.csv.gz
+  scanned 1,000,000 rows, 20,117 builds buffered
+  jruby/jruby                            6494 builds  62.92% failing (strict 60.06%) -> jruby_jruby.csv
+  apache/jackrabbit-oak                  5457 builds  51.04% failing (strict 51.04%) -> apache_jackrabbit-oak.csv
+  gradle/gradle                          3660 builds   8.55% failing (strict  8.52%) -> gradle_gradle.csv
+  opf/openproject                        3554 builds  33.46% failing (strict 31.74%) -> opf_openproject.csv
+  rails/rails                            2787 builds  28.74% failing (strict 27.84%) -> rails_rails.csv
+  ruby/ruby                              2681 builds  31.85% failing (strict 31.82%) -> ruby_ruby.csv
+  Graylog2/graylog2-server               2539 builds  12.72% failing (strict 12.60%) -> Graylog2_graylog2-server.csv
+  cloudfoundry/cloud_controller_ng       2463 builds  25.09% failing (strict 24.56%) -> cloudfoundry_cloud_controller_ng.csv
+  facebook/presto                        2067 builds  50.27% failing (strict 50.27%) -> facebook_presto.csv
+  github/linguist                        2013 builds  25.04% failing (strict 25.04%) -> github_linguist.csv
+  openSUSE/open-build-service            2667 builds  33.63% failing (strict 33.52%) -> openSUSE_open-build-service.csv
+  mitchellh/vagrant                      2593 builds   9.18% failing (strict  9.18%) -> mitchellh_vagrant.csv
+  rubinius/rubinius                      2181 builds  36.96% failing (strict 36.86%) -> rubinius_rubinius.csv
+  orbeon/orbeon-forms                    2074 builds  57.91% failing (strict 57.81%) -> orbeon_orbeon-forms.csv
+
+Total build level records written: 43,230
+EXIT 0
