@@ -1,6 +1,10 @@
 # How Predictable Are CI Build Failures? A Leakage Explicit, Baseline Calibrated Replication on TravisTorrent
 
-Replication package for an anonymized study on leakage-controlled CI build-outcome prediction.
+## Paper citation
+
+Manpreet Singh, Akshatha Srikantha, Bikramjit Singh, Rahul Joshi, and Hanamant Bhagwan Sale. “How Predictable Are CI Build Failures? A Leakage Explicit, Baseline Calibrated Replication on TravisTorrent.” Accepted at ISEC 2027.
+
+Replication package for our paper on leakage-controlled CI build-outcome prediction, accepted at ISEC 2027.
 
 Every number in the paper is computed from the public TravisTorrent 5/3/2016 snapshot by the scripts in this package. No synthetic data is used.
 
