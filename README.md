@@ -2,7 +2,9 @@
 
 ## Paper citation
 
-Manpreet Singh, Akshatha Srikantha, Bikramjit Singh, Rahul Joshi, and Hanamant Bhagwan Sale. “How Predictable Are CI Build Failures? A Leakage Explicit, Baseline Calibrated Replication on TravisTorrent.” Accepted at ISEC 2027.
+> Manpreet Singh, Akshatha Srikantha, Bikramjit Singh, Rahul Joshi, and Hanamant Bhagwan Sale.  
+> **“How Predictable Are CI Build Failures? A Leakage Explicit, Baseline Calibrated Replication on TravisTorrent.”**  
+> Accepted at **ISEC 2027**.
 
 Replication package for our paper on leakage-controlled CI build-outcome prediction, accepted at ISEC 2027.
 
